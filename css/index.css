@@ -1,7 +1,10 @@
 body {
     background-color: #e1f3d9;
     color: #333;
-    font-family: sans-serif;
+    font-family: Arial;
+    padding: 10px;
+    margin: 0;
+
 }
 
 header {
@@ -42,7 +45,7 @@ a:hover {
 }
 
 main {
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -65,7 +68,7 @@ label {
 }
 
 input[type="text"],
-input[type="password"] {
+ input[type="password"] {
     width: 100%;
     padding: 10px;
     border: 1px solid #ccc;
@@ -85,4 +88,15 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
     background-color: #92d2b9;
+}
+
+#partie1 {
+    float: left;
+}
+
+#img1 {
+    position: absolute;
+    top: 30%;
+    right: 100px;
+    width: 20%;
 }
